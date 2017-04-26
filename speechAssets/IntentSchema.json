@@ -1,0 +1,10 @@
+{"intents": [
+    {"intent": "GetAddress", "slots": [{"name" : "Person", "type": "LIST_OF_PEOPLE"}]},
+    {"intent": "GetBirthday", "slots": [{"name" : "Person", "type": "LIST_OF_PEOPLE"}]},
+    {"intent": "GetHeritage", "slots": [{"name" : "Person", "type": "LIST_OF_PEOPLE"}]},
+    {"intent": "AMAZON.RepeatIntent"},
+    {"intent": "AMAZON.HelpIntent"},
+    {"intent": "AMAZON.StopIntent"},
+    {"intent": "AMAZON.CancelIntent"}
+  ]
+}

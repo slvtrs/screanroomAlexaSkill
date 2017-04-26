@@ -1,0 +1,20 @@
+GetAddress where does {Person} live
+GetAddress where's {Person} live
+GetAddress what is {Person} address
+GetAddress what's {Person} address
+GetAddress {Person} address
+
+GetBirthday when is {Person} birthday
+GetBirthday when was {Person} born
+GetBirthday what is {Person} birthday
+GetBirthday what's {Person} birthday
+GetBirthday when's {Person} birthday
+
+GetHeritage what is {Person} heritage
+GetHeritage what is {Person} ethnicity
+GetHeritage what is {Person} background
+GetHeritage what is {Person} race
+GetHeritage what's {Person} heritage
+GetHeritage what's {Person} ethnicity
+GetHeritage what's {Person} background
+GetHeritage what's {Person} race

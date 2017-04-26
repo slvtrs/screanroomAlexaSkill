@@ -1,0 +1,30 @@
+<html><body>
+
+<script>var module = {exports: {}};</script>
+
+<script src="./recipes.js"></script>
+<script>varrecipes = module.exports;</script>
+
+<script src="./nicknames.js"></script>
+<script>var nicknames = module.exports;</script>
+
+<script>
+itemName = 'tony';
+
+for(var name in nicknames){
+    nicknames[name].forEach(function(nickname){
+        if(nickname == itemName) {
+            // console.log(name);
+        }
+    });
+}
+
+for(var name in nicknames){
+	for(var i = 0; i < nicknames[name].length; i++){
+		if(nicknames[name][i] == itemName)
+			alert(name);
+	}
+}
+</script>
+
+</body></html>
